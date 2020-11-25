@@ -1,0 +1,592 @@
+[             ] Require frontend run.  tundra_tinyspaceship-web-wasm_i2b.dag no longer valid. FileSignature timestamp changed: settings/tinyspaceship-web-wasm.json
+*** buildprogram build success (0.02 seconds), 0 items updated, 13 evaluated
+[      17s] Executed build program. Created build graph with 810 nodes.
+[           0s] Freezing tundra_tinyspaceship-web-wasm_i2b.dag.json into .dag (.dag file didn't exist)
+[ 21/683    0s] WriteResponseFile artifacts/rsp/9575948709242857785.rsp
+[ 42/683    0s] WriteResponseFile artifacts/rsp/17606906110214015592.rsp
+[ 43/683    0s] WriteResponseFile artifacts/rsp/7661582566513542936.rsp
+[ 43/683    0s] WriteResponseFile artifacts/rsp/16786076608649916824.rsp
+[ 45/683    0s] WriteResponseFile artifacts/rsp/16622121094870104312.rsp
+[ 46/683    0s] WriteResponseFile artifacts/rsp/4708413509425341628.rsp
+[ 49/683    0s] WriteResponseFile artifacts/rsp/17290527597370642258.rsp
+[ 50/683    0s] WriteResponseFile artifacts/rsp/9704476524211315428.rsp
+[ 51/683    0s] WriteResponseFile artifacts/rsp/9546158584154177304.rsp
+[ 52/683    0s] CopyTool ../../Builds/tinyspaceship-web-wasm/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.0.entities
+[ 52/683    0s] CopyTool ../../Builds/tinyspaceship-web-wasm/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.entityheader
+[ 52/683    0s] CopyTool ../../Builds/tinyspaceship-web-wasm/Data/catalog.bin
+[ 52/683    0s] CopyTool ../../Builds/tinyspaceship-web-wasm/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.conversionlog
+[ 90/683    0s] CopyTool ../../Builds/tinyspaceship-web-wasm/Data/SubScenes/cca1e09795602416a974a42372e0d08b.entityheader
+[ 91/683    0s] CopyTool ../../Builds/tinyspaceship-web-wasm/Data/SubScenes/cca1e09795602416a974a42372e0d08b.0.entities
+[BUSY       6s] Download and unpack artifacts/Stevedore-ExternalUnpack/artifacts_Stevedore_emscripten-mac (+1 other)
+[BUSY      11s] Download and unpack artifacts/Stevedore/emscripten-wasm-llvm-mac_eeb4/.StevedoreVersion (+1 other)
+[112/683   11s] Download and unpack artifacts/Stevedore-ExternalUnpack/artifacts_Stevedore_emscripten-mac (+1 other)
+[150/683   11s] Download and unpack artifacts/Stevedore/emscripten-wasm-llvm-mac_eeb4/.StevedoreVersion (+1 other)
+[151/683   11s] Download and unpack artifacts/Stevedore-ExternalUnpack/artifacts_Stevedore_node-mac-x64 (+1 other)
+[152/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/netstandard.dll
+[153/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Collections.LowLevel.ILSupport.dll
+[154/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/mscorlib.dll
+[155/683    0s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/UnsafeUtility.dll (+pdb)
+[156/683   13s] Csc artifacts/Unity.LowLevel.dll/tinyspaceship-web-wasm/Unity.LowLevel.dll (+2 others)
+[157/683    1s] C_WebGL_wasm artifacts/lib_unity_lowlevel/tinyspaceship-web-wasm/heka/dummy.o
+[158/683    0s] C_WebGL_wasm artifacts/lib_unity_lowlevel/tinyspaceship-web-wasm/70ug/guard.o
+[159/683    0s] C_WebGL_wasm artifacts/lib_unity_tiny_burst/tinyspaceship-web-wasm/heka/dummy.o
+[160/683    0s] C_WebGL_wasm artifacts/lib_unity_tiny_io/tinyspaceship-web-wasm/heka/dummy.o
+[161/683    2s] C_WebGL_wasm artifacts/lib_unity_lowlevel/tinyspaceship-web-wasm/70ug/allocators.o
+[162/683    0s] C_WebGL_wasm artifacts/lib_unity_tiny_io/tinyspaceship-web-wasm/ql3d/AndroidLoader.o
+[163/683    3s] C_WebGL_wasm artifacts/lib_unity_lowlevel/tinyspaceship-web-wasm/70ug/BurstInit.o
+[164/683    0s] C_WebGL_wasm artifacts/lib_unity_zerojobs/tinyspaceship-web-wasm/heka/dummy.o
+[165/683    0s] C_WebGL_wasm artifacts/lib_unity_zerojobs/tinyspaceship-web-wasm/xr9b/HTMLWrapper.o
+[166/683    2s] C_WebGL_wasm artifacts/lib_unity_tiny_burst/tinyspaceship-web-wasm/xaql/BurstNativeSupport.o
+[167/683    0s] C_WebGL_wasm artifacts/lib_unity_entities/tinyspaceship-web-wasm/heka/dummy.o
+[168/683    1s] C_WebGL_wasm artifacts/lib_unity_zerojobs/tinyspaceship-web-wasm/xr9b/ZeroJobsNativeSupport.o
+[169/683    1s] C_WebGL_wasm artifacts/lib_unity_zerojobs/tinyspaceship-web-wasm/xr9b/PlayerConnectionNativeSupport.o
+[170/683    0s] C_WebGL_wasm artifacts/lib_unity_tiny_core/tinyspaceship-web-wasm/heka/dummy.o
+[171/683    0s] C_WebGL_wasm artifacts/lib_unity_tiny_image2d_web/tinyspaceship-web-wasm/heka/dummy.o
+[172/683    3s] C_WebGL_wasm artifacts/lib_unity_tiny_io/tinyspaceship-web-wasm/xuvu/TinyIO.o
+[173/683    0s] C_WebGL_wasm artifacts/lib_unity_platforms_common/tinyspaceship-web-wasm/heka/dummy.o
+[174/683    0s] C_WebGL_wasm artifacts/lib_unity_platforms_common/tinyspaceship-web-wasm/sqc6/macOSWrapper.o
+[189/683    1s] C_WebGL_wasm artifacts/lib_unity_tiny_core/tinyspaceship-web-wasm/s3k5/Log.o
+[190/683    0s] C_WebGL_wasm artifacts/lib_unity_platforms_common/tinyspaceship-web-wasm/4btr/WindowsWrapper.o
+[191/683    0s] C_WebGL_wasm artifacts/lib_unity_tiny_rendering_native/tinyspaceship-web-wasm/heka/dummy.o
+[193/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/14uz/Debugger.o
+[194/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/q98j/GCHandle.o
+[195/683    4s] C_WebGL_wasm artifacts/lib_unity_entities/tinyspaceship-web-wasm/eouh/lz4.o
+[196/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/q98j/Marshal.o
+[197/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/779w/Enum.o
+[198/683    2s] C_WebGL_wasm artifacts/lib_unity_tiny_rendering_native/tinyspaceship-web-wasm/mpq8/BufferedCallbacks.o
+[199/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/779w/GC.o
+[200/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/779w/Type.o
+[201/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/aij8/il2cpp-virtual-remap.o
+[202/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/779w/Environment.o
+[203/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/aij8/il2cpp-api.o
+[204/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/czx7/pch-cpp.o
+[205/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/44c1/DebugMetadata.o
+[206/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/44c1/LastError.o
+[207/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/44c1/Exception.o
+[208/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/44c1/PlatformInvoke.o
+[209/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/44c1/Runtime.o
+[210/683    2s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/44c1/Reflection.o
+[211/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/44c1/String.o
+[212/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/44c1/Type.o
+[213/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/44c1/TypeUniverse.o
+[214/683    2s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/44c1/StackTrace.o
+[215/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/x1jt/ConsoleExtension.o
+[216/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/x1jt/Initialize.o
+[217/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/x1jt/Locale.o
+[218/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/x1jt/StackTrace.o
+[219/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/x1jt/TimeZoneInfo.o
+[220/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/ak74/SocketBridge.o
+[221/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/hdg8/Error.o
+[222/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/hdg8/CrashHelpers.o
+[223/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/hdg8/ConditionVariable.o
+[224/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/9wur/Assert.o
+[225/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/9wur/COM.o
+[226/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/9wur/CpuInfo.o
+[227/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/hdg8/Event.o
+[228/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/9wur/CrashHelpers.o
+[229/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/9wur/Environment.o
+[230/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/9wur/Debug.o
+[231/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/9wur/File.o
+[232/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/9wur/Handle.o
+[233/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/9wur/Initialize.o
+[234/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/9wur/MarshalStringAlloc.o
+[235/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/9wur/SocketBridge.o
+[236/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/9wur/SocketImpl.o
+[237/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/9wur/Process.o
+[238/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/9wur/SystemCertificates.o
+[239/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/9wur/TimeZoneInfo.o
+[240/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/hdg8/Image.o
+[241/683    2s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/9wur/MemoryMappedFile.o
+[242/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/jjld/Automation.o
+[243/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/9wur/WindowsRuntime.o
+[244/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/jjld/Debug.o
+[245/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/jjld/File.o
+[246/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/hdg8/LibraryLoader.o
+[247/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/jjld/Environment.o
+[248/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/jjld/Initialize.o
+[249/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/jjld/Lifecycle.o
+[250/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/jjld/Process.o
+[251/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/jjld/StackTrace.o
+[252/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/jjld/TimeZoneInfo.o
+[253/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/evib/Image.o
+[254/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/evib/Process.o
+[255/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/hdg8/Messages.o
+[256/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/evib/SystemCertificates.o
+[257/683    2s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/hdg8/Mutex.o
+[258/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/ConditionVariableImpl.o
+[259/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/CpuInfo.o
+[260/683   21s] C_WebGL_wasm artifacts/bgfx/tinyspaceship-web-wasm/mmih/amalgamated.o
+[261/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/hdg8/Path.o
+[262/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/CrashHelpers.o
+[263/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/Cryptography.o
+[264/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/Directory.o
+[265/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/Console.o
+[266/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/Encoding.o
+[267/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/EventImpl.o
+[268/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/FileSystemWatcher.o
+[269/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/Environment.o
+[270/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/Error.o
+[271/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/Image.o
+[272/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/LastError.o
+[273/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/MarshalAlloc.o
+[274/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/Locale.o
+[275/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/Memory.o
+[276/683    3s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/File.o
+In file included from /Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/Stevedore/il2cpp_a51d/libil2cpp/os/Posix/File.cpp:28:
+/Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/Stevedore/emscripten-mac/system/include/libc/sys/errno.h:1:2: warning: redirecting incorrect #include <sys/errno.h> to <errno.h> [-W#warnings]
+#warning redirecting incorrect #include <sys/errno.h> to <errno.h>
+ ^
+1 warning generated.
+[277/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/LibraryLoader.o
+[278/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/MemoryMappedFile.o
+[279/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/MutexImpl.o
+[280/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/NativeMethods.o
+[281/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/Path.o
+[282/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/PosixHelpers.o
+[283/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/PosixWaitObject.o
+[284/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/Process.o
+[285/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/SemaphoreImpl.o
+[286/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/SocketImpl.o
+[287/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/StackTrace.o
+[288/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/SystemCertificates.o
+[289/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/ThreadImpl.o
+[290/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/TimeZone.o
+[291/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/hdg8/ReaderWriterLock.o
+[292/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/1lz9/Time.o
+[293/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/hdg8/Socket.o
+[294/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/5ktd/ThreadImpl.o
+[295/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/Assert.o
+[296/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/hdg8/Semaphore.o
+[297/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/COM.o
+[298/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/hdg8/StackTrace.o
+[299/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/ConditionVariableImpl.o
+[300/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/hdg8/Thread.o
+[301/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/CpuInfo.o
+[302/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/Console.o
+[303/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/CrashHelpers.o
+[304/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/Cryptography.o
+[305/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/Debug.o
+[306/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/Directory.o
+[307/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/DllMain.o
+[308/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/Encoding.o
+[309/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/Environment.o
+[310/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/EventImpl.o
+[311/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/File.o
+[312/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/Handle.o
+[313/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/Image.o
+[313/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/FileSystemWatcher.o
+[315/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/Initialize.o
+[316/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/LastError.o
+[317/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/Locale.o
+[318/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/LibraryLoader.o
+[319/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/MarshalAlloc.o
+[320/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/MemoryMappedFile.o
+[321/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/MarshalStringAlloc.o
+[322/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/Memory.o
+[323/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/MutexImpl.o
+[324/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/NativeMethods.o
+[325/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/Path.o
+[326/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/SemaphoreImpl.o
+[327/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/SocketImpl.o
+[328/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/StackTrace.o
+[329/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/SystemCertificates.o
+[330/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/SynchronizationContext.o
+[331/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/Process.o
+[332/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/ThreadImpl.o
+[333/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/TimeZone.o
+[334/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/WindowsHelpers.o
+[335/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/Time.o
+[336/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/dp5o/WindowsRuntime.o
+[337/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/cikd/Cryptography.o
+[338/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/cikd/BrokeredFileSystem.o
+[339/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/cikd/Environment.o
+[340/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/cikd/File.o
+[341/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/cikd/Initialize.o
+[342/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/cikd/Locale.o
+[342/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/cikd/MarshalAlloc.o
+[344/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/cikd/Process.o
+[345/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/grj7/Win32ApiWindowsGamesEmulation.o
+[346/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/cikd/Win32ApiSharedEmulation.o
+[347/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/cikd/Win32ApiWinRTEmulation.o
+[348/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/COM.o
+[349/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/ConditionVariable.o
+[350/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/CpuInfo.o
+[351/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Cryptography.o
+[352/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Debug.o
+[353/683    2s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Allocator.o
+[354/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Console.o
+[355/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Directory.o
+[356/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Error.o
+[357/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Event.o
+[358/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/CultureInfo.o
+[359/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/File.o
+[360/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Handle.o
+[361/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/LibraryLoader.o
+[362/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Environment.o
+[363/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Locale.o
+[364/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Memory.o
+[365/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/MemoryMappedFile.o
+[366/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Messages.o
+[367/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/NativeMethods.o
+[368/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Mutex.o
+[369/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Path.o
+[370/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Process.o
+[371/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Semaphore.o
+[372/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Socket.o
+[373/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/SystemCertificates.o
+[374/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Thread.o
+[375/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/ThreadLocalValue.o
+[376/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/Time.o
+[377/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/TimeZone.o
+[378/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/i92u/TimeZoneInfo.o
+[379/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/ConditionVariableTests.o
+[380/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/COMTests.o
+[381/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/ConsoleTests.o
+[382/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/CpuInfoTests.o
+[383/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/CryptographyTests.o
+[384/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/DebugTests.o
+[385/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/DirectoryTests.o
+[386/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/EnvironmentTests.o
+[387/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/ErrorTests.o
+[388/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/EventTests.o
+[389/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/LibraryLoaderTests.o
+[390/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/FileTests.o
+[391/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/LocaleTests.o
+[392/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/MainTestRunner.o
+[393/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/MemoryMappedFileTests.o
+[394/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/MemoryTests.o
+[395/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/MessagesTests.o
+[396/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/MutexTests.o
+[397/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/NativeMethodsTests.o
+[398/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/PathTests.o
+[399/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/ProcessTests.o
+[400/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/SemaphoreTests.o
+[401/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/SocketTests.o
+[402/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/ThreadLocalValueTests.o
+[403/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/ThreadTests.o
+[404/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/TimeTests.o
+[405/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/gqis/TimeZoneInfoTests.o
+[406/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/l66f/NullGC.o
+[407/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/l66f/BoehmGC.o
+[408/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/l66f/WriteBarrier.o
+[409/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/l66f/WriteBarrierValidation.o
+[410/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/l66f/GarbageCollector.o
+[411/683    2s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/l66f/GCHandle.o
+[412/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/kw61/Il2CppHStringReference.o
+[413/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/kw61/DirectoryUtils.o
+[414/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/kw61/Logging.o
+[415/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/kw61/MarshalingUtils.o
+[416/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/kw61/Environment.o
+[417/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/kw61/Memory.o
+[418/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/kw61/MemoryMappedFile.o
+[419/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/kw61/Exception.o
+[420/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/kw61/MemoryPool.o
+[421/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/kw61/PathUtils.o
+[422/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/kw61/Output.o
+[423/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/kw61/Runtime.o
+[424/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/olxa/BlobReader.o
+[425/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/olxa/Debugger.o
+[426/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/olxa/NativeDelegateMethodCache.o
+[427/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/olxa/VmStringUtils.o
+[428/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/kw61/mono-structs.o
+[429/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/l2ih/Math.o
+[430/683    2s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/kw61/StringUtils.o
+[431/683    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/uan6/il2cpp-codegen-common.o
+[432/683    2s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/olxa/NativeSymbol.o
+[433/683    0s] C_WebGL_wasm artifacts/lib_unity_tiny_web/tinyspaceship-web-wasm/heka/dummy.o
+[434/683    2s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/ncem/Interlocked.o
+[435/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/uan6/il2cpp-codegen-il2cpp.o
+[436/683    0s] C_WebGL_wasm artifacts/lib_unity_tiny_web/tinyspaceship-web-wasm/0bdc/HTMLWrapper.o
+[437/683    0s] C_WebGL_wasm artifacts/lib_unity_tiny_web/tinyspaceship-web-wasm/0bdc/SendMessageCallbackHandler.o
+[438/683    0s] C_WebGL_wasm artifacts/lib_unity_tiny_input_web/tinyspaceship-web-wasm/heka/dummy.o
+[439/683    0s] C_WebGL_wasm artifacts/lib_unity_tiny_audio_web/tinyspaceship-web-wasm/heka/dummy.o
+[440/683    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/uan6/il2cpp-codegen-tiny.o
+[441/683    0s] C_WebGL_wasm artifacts/lib_unity_platforms_runloop/tinyspaceship-web-wasm/heka/dummy.o
+[443/683    0s] C_WebGL_wasm artifacts/lib_unity_platforms_runloop/tinyspaceship-web-wasm/nc34/Time.o
+[444/683    0s] Csc artifacts/Unity.Tiny.Burst.dll/tinyspaceship-web-wasm/Unity.Tiny.Burst.dll (+2 others)
+[445/683    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/z6vx/xxhash.o
+In file included from /Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/Stevedore/il2cpp_a51d/external/xxHash/xxhash.c:1021:
+/Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/Stevedore/il2cpp_a51d/external/xxHash/xxh3.h:550:13: warning: loop not unrolled: the optimizer was unable to perform the requested transformation; the transformation might be disabled or specified as part of an unsupported transformation ordering [-Wpass-failed=transform-warning]
+static void XXH3_accumulate(U64* acc, const void* restrict data, const U32* restrict key, size_t nbStripes)
+            ^
+1 warning generated.
+[446/683    1s] Csc artifacts/Unity.Tiny.IO.dll/tinyspaceship-web-wasm/Unity.Tiny.IO.dll (+2 others)
+[448/683    1s] C_WebGL_wasm artifacts/lib_unity_platforms_runloop/tinyspaceship-web-wasm/6iw8/HTMLWrapper.o
+[449/683    0s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.LowLevel.dll (+pdb)
+[450/683    0s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Tiny.Burst.dll (+pdb)
+[451/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Tiny.IO.dll (+pdb)
+[452/683    1s] Lib_WebGL_wasm artifacts/lib_unity_lowlevel/tinyspaceship-web-wasm/lib_unity_lowlevel.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[453/683    0s] Lib_WebGL_wasm artifacts/libil2cpptiny/tinyspaceship-web-wasm/libil2cpptiny.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[454/683    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_burst/tinyspaceship-web-wasm/lib_unity_tiny_burst.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[455/683    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_io/tinyspaceship-web-wasm/lib_unity_tiny_io.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[456/683    1s] Csc artifacts/Unity.Burst.dll/tinyspaceship-web-wasm/Unity.Burst.dll (+2 others)
+[457/683    0s] Lib_WebGL_wasm artifacts/lib_unity_zerojobs/tinyspaceship-web-wasm/lib_unity_zerojobs.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[458/683    0s] Lib_WebGL_wasm artifacts/lib_unity_platforms_common/tinyspaceship-web-wasm/lib_unity_platforms_common.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[459/683    0s] Lib_WebGL_wasm artifacts/lib_unity_entities/tinyspaceship-web-wasm/lib_unity_entities.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[460/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Burst.dll (+pdb)
+[461/683    1s] Csc artifacts/Unity.ZeroJobs.dll/tinyspaceship-web-wasm/Unity.ZeroJobs.dll (+2 others)
+[462/683    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_core/tinyspaceship-web-wasm/lib_unity_tiny_core.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[463/683    0s] Lib_WebGL_wasm artifacts/lib_unity_platforms_runloop/tinyspaceship-web-wasm/lib_unity_platforms_runloop.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[464/683    1s] Csc artifacts/Unity.Properties.dll/tinyspaceship-web-wasm/Unity.Properties.dll (+2 others)
+[465/683    1s] Csc artifacts/Unity.Platforms.Common.dll/tinyspaceship-web-wasm/Unity.Platforms.Common.dll (+2 others)
+[466/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.ZeroJobs.dll (+pdb)
+[467/683    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_image2d_web/tinyspaceship-web-wasm/lib_unity_tiny_image2d_web.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[468/683    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_web/tinyspaceship-web-wasm/lib_unity_tiny_web.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[469/683    0s] Csc artifacts/Unity.Properties.Reflection.dll/tinyspaceship-web-wasm/Unity.Properties.Reflection.dll (+2 others)
+[470/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Properties.dll (+pdb)
+[471/683    1s] Csc artifacts/Unity.Platforms.RunLoop.dll/tinyspaceship-web-wasm/Unity.Platforms.RunLoop.dll (+2 others)
+[472/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Platforms.Common.dll (+pdb)
+[473/683    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_rendering_native/tinyspaceship-web-wasm/lib_unity_tiny_rendering_native.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[474/683    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_input_web/tinyspaceship-web-wasm/lib_unity_tiny_input_web.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[475/683    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_audio_web/tinyspaceship-web-wasm/lib_unity_tiny_audio_web.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[476/683    0s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Properties.Reflection.dll (+pdb)
+[477/683    0s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Platforms.RunLoop.dll (+pdb)
+[478/683    5s] Csc artifacts/Unity.Mathematics.dll/tinyspaceship-web-wasm/Unity.Mathematics.dll (+2 others)
+[479/683    0s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Mathematics.dll (+pdb)
+[480/683    1s] Csc artifacts/Unity.Collections.dll/tinyspaceship-web-wasm/Unity.Collections.dll (+2 others)
+[481/683    0s] Csc artifacts/Unity.Jobs.dll/tinyspaceship-web-wasm/Unity.Jobs.dll (+2 others)
+[482/683    0s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Collections.dll (+pdb)
+[483/683    0s] Csc artifacts/Unity.Mathematics.Extensions.dll/tinyspaceship-web-wasm/Unity.Mathematics.Extensions.dll (+2 others)
+[484/683    0s] Csc artifacts/Unity.Serialization.dll/tinyspaceship-web-wasm/Unity.Serialization.dll (+2 others)
+[485/683    0s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Jobs.dll (+pdb)
+[486/683    0s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Mathematics.Extensions.dll (+pdb)
+[487/683    0s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Serialization.dll (+pdb)
+[488/683    1s] Csc artifacts/Unity.Entities.dll/tinyspaceship-web-wasm/Unity.Entities.dll (+2 others)
+[489/683    0s] Csc artifacts/Unity.Entities.Runtime.dll/tinyspaceship-web-wasm/Unity.Entities.Runtime.dll (+2 others)
+[490/683    0s] Csc artifacts/Unity.Transforms.dll/tinyspaceship-web-wasm/Unity.Transforms.dll (+2 others)
+[491/683    0s] Csc artifacts/Unity.Tiny.Core.dll/tinyspaceship-web-wasm/Unity.Tiny.Core.dll (+2 others)
+[492/683    0s] Csc artifacts/Unity.Scenes.dll/tinyspaceship-web-wasm/Unity.Scenes.dll (+2 others)
+[493/683    0s] Csc artifacts/Unity.2D.Entities.Physics.dll/tinyspaceship-web-wasm/Unity.2D.Entities.Physics.dll (+2 others)
+[494/683    0s] Csc artifacts/Unity.Tiny.Image2D.dll/tinyspaceship-web-wasm/Unity.Tiny.Image2D.dll (+2 others)
+[495/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Entities.Runtime.dll (+pdb)
+[496/683    0s] Csc artifacts/Unity.Tiny.Web.dll/tinyspaceship-web-wasm/Unity.Tiny.Web.dll (+2 others)
+[497/683    0s] Csc artifacts/Unity.Tiny.Input.dll/tinyspaceship-web-wasm/Unity.Tiny.Input.dll (+2 others)
+[498/683    0s] Csc artifacts/Unity.Tiny.Audio.dll/tinyspaceship-web-wasm/Unity.Tiny.Audio.dll (+2 others)
+[499/683    3s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Entities.dll (+pdb)
+[500/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Transforms.dll (+pdb)
+[501/683    0s] Csc artifacts/Unity.Tiny.UnityInstance.dll/tinyspaceship-web-wasm/Unity.Tiny.UnityInstance.dll (+2 others)
+[502/683    0s] Csc artifacts/Unity.Tiny.Image2D.Web.dll/tinyspaceship-web-wasm/Unity.Tiny.Image2D.Web.dll (+2 others)
+[503/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Tiny.Core.dll (+pdb)
+[504/683    1s] Csc artifacts/Unity.Tiny.Rendering.dll/tinyspaceship-web-wasm/Unity.Tiny.Rendering.dll (+2 others)
+[505/683    2s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Scenes.dll (+pdb)
+[506/683    2s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.2D.Entities.Physics.dll (+pdb)
+[507/683    0s] Csc artifacts/Unity.Tiny.Input.Web.dll/tinyspaceship-web-wasm/Unity.Tiny.Input.Web.dll (+2 others)
+[508/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Tiny.Image2D.dll (+pdb)
+[509/683    0s] Csc artifacts/Unity.Tiny.Audio.Web.dll/tinyspaceship-web-wasm/Unity.Tiny.Audio.Web.dll (+2 others)
+[510/683    0s] Csc artifacts/Unity.Runtime.EntryPoint.exe/tinyspaceship-web-wasm/Unity.Runtime.EntryPoint.exe (+2 others)
+[511/683    2s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Tiny.Web.dll (+pdb)
+[512/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Tiny.Input.dll (+pdb)
+[513/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Tiny.UnityInstance.dll (+pdb)
+[514/683    2s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Tiny.Audio.dll (+pdb)
+[515/683    1s] Csc artifacts/Unity.Tiny.Rendering.Native.dll/tinyspaceship-web-wasm/Unity.Tiny.Rendering.Native.dll (+2 others)
+[516/683    0s] Csc artifacts/Unity.Tiny.2D.dll/tinyspaceship-web-wasm/Unity.Tiny.2D.dll (+2 others)
+[517/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Tiny.Image2D.Web.dll (+pdb)
+[518/683    0s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Runtime.EntryPoint.exe (+pdb)
+[519/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Tiny.Input.Web.dll (+pdb)
+[520/683    0s] Csc artifacts/Unity.Tiny.2D.Native.dll/tinyspaceship-web-wasm/Unity.Tiny.2D.Native.dll (+2 others)
+[521/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Tiny.Audio.Web.dll (+pdb)
+[522/683    0s] Csc artifacts/TinySpaceship.dll/tinyspaceship-web-wasm/TinySpaceship.dll (+2 others)
+[523/683    2s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Tiny.2D.dll (+pdb)
+[524/683    4s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Tiny.Rendering.dll (+pdb)
+[525/683    3s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Tiny.Rendering.Native.dll (+pdb)
+[526/683    2s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/Unity.Tiny.2D.Native.dll (+pdb)
+[527/683    1s] ILPostProcessorRunner artifacts/TinySpaceship/tinyspaceship-web-wasm/post_ilprocessing/TinySpaceship.dll (+pdb)
+[528/683    1s] TypeRegGen artifacts/TinySpaceship/tinyspaceship-web-wasm/post_typereg/TinySpaceship.dll (+72 others)
+[BUSY       6s] UnityLinker artifacts/TinySpaceship/tinyspaceship-web-wasm_stripped/TinySpaceship.dll (+72 others)
+[529/683    6s] UnityLinker artifacts/TinySpaceship/tinyspaceship-web-wasm_stripped/TinySpaceship.dll (+72 others)
+[BUSY       6s] Il2Cpp artifacts/TinySpaceship/tinyspaceship-web-wasm_stripped/il2cpp-src
+[530/683   10s] Il2Cpp artifacts/TinySpaceship/tinyspaceship-web-wasm_stripped/il2cpp-src
+*** Bee requires additional run (118.22 seconds - 0:01:58), 380 items updated, 683 evaluated
+*** buildprogram build success (0.02 seconds), 0 items updated, 13 evaluated
+[      14s] Executed build program. Created build graph with 779 nodes.
+[           0s] Freezing tundra_tinyspaceship-web-wasm_i2b.dag.json into .dag (Timestamp of .json > .dag)
+[           0s] Delete 39 artifact files that are no longer in use. (like artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Il2CppGenericComDefinitions19.o)
+[ 86/652    0s] WriteResponseFile artifacts/rsp/9575948709242857785.rsp
+[527/652    5s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/GenericMethods.o
+[528/652    5s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/GenericMethods1.o
+[529/652    6s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/GenericMethods3.o
+[530/652    6s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/GenericMethods2.o
+[BUSY       6s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/GenericMethods5.o
+[531/652    6s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/GenericMethods5.o
+[532/652    7s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/GenericMethods6.o
+[533/652    7s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/GenericMethods4.o
+[534/652    7s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/GenericMethods7.o
+[535/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/GenericMethods9.o
+[BUSY       6s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics1.o
+[536/652    6s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics10.o
+[537/652    7s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics.o
+[538/652   10s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/GenericMethods8.o
+[539/652   10s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics1.o
+[540/652    6s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics11.o
+[541/652    6s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics12.o
+[542/652    8s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics13.o
+[543/652    7s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics14.o
+[544/652    4s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics15.o
+[545/652    3s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics4.o
+[546/652    3s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics5.o
+[547/652    4s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics3.o
+[548/652   11s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics2.o
+[549/652    4s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics6.o
+[550/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics_StaticConstructors.o
+[551/652    6s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics7.o
+[552/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Il2CppGenericComDefinitions.o
+[553/652    7s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics8.o
+[554/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Il2CppGenericComDefinitions1.o
+[555/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Il2CppGenericComDefinitions10.o
+[556/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Il2CppGenericComDefinitions11.o
+[557/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Il2CppGenericComDefinitions12.o
+[558/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Il2CppGenericComDefinitions13.o
+[559/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Il2CppGenericComDefinitions14.o
+[560/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Il2CppGenericComDefinitions15.o
+[561/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Il2CppGenericComDefinitions2.o
+[562/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Il2CppGenericComDefinitions3.o
+[563/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Il2CppGenericComDefinitions4.o
+[564/652   10s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Generics9.o
+[565/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Il2CppGenericComDefinitions5.o
+[566/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Il2CppGenericComDefinitions6.o
+[567/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Il2CppGenericComDefinitions7.o
+[568/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Il2CppGenericComDefinitions8.o
+[569/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Il2CppGenericComDefinitions9.o
+[570/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/ModuleInitializers.o
+[571/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/StaticConstructors.o
+[572/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/StaticInitialization.o
+[573/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/StringLiterals.o
+[574/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/TinyMethods.o
+[575/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/TinySpaceship_StaticConstructors.o
+[576/652    4s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/TinySpaceship.o
+[577/652    3s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/TinyTypes.o
+[578/652    2s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.2D.Entities.Physics1.o
+[579/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.2D.Entities.Physics_StaticConstructors.o
+[580/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Burst.o
+[581/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Collections.LowLevel.ILSupport.o
+[582/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Collections_StaticConstructors.o
+[583/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Entities.Runtime.o
+[584/652    6s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.2D.Entities.Physics.o
+[585/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Entities.Runtime_StaticConstructors.o
+[586/652    7s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Collections.o
+[587/652    6s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Entities.o
+[588/652    6s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Entities2.o
+[589/652    7s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Entities1.o
+[590/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Entities_StaticConstructors.o
+[591/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Jobs.o
+[592/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.LowLevel.o
+[593/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Mathematics.Extensions.o
+[594/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Mathematics_StaticConstructors.o
+[595/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Platforms.Common.o
+[596/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Platforms.RunLoop.o
+[597/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Properties.Reflection.o
+[598/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Properties.o
+[599/652    7s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Entities3.o
+[600/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Runtime.EntryPoint.o
+[601/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Runtime.EntryPoint_StaticConstructors.o
+[602/652    5s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Mathematics.o
+[603/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Scenes_StaticConstructors.o
+[604/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Serialization.o
+[605/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.2D.Native_StaticConstructors.o
+[606/652    3s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Scenes.o
+[607/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.2D_StaticConstructors.o
+[608/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.2D.o
+[609/652    3s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.2D.Native.o
+[610/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Audio.Web_StaticConstructors.o
+[611/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Audio.Web.o
+[612/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Audio_StaticConstructors.o
+[613/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Burst.o
+[614/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Core_StaticConstructors.o
+[615/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Core.o
+[616/652    3s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Audio.o
+[617/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.IO.o
+[618/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Image2D.Web_StaticConstructors.o
+[619/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Image2D.Web.o
+[620/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Image2D_StaticConstructors.o
+[621/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Image2D.o
+[622/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Input.Web_StaticConstructors.o
+[623/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Input.Web.o
+[624/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Input_StaticConstructors.o
+[625/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Input.o
+[626/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Rendering.Native_StaticConstructors.o
+[627/652    4s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Rendering.Native2.o
+[628/652    4s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Rendering.Native.o
+[629/652    4s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Rendering.o
+[630/652    7s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Rendering.Native1.o
+[631/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Rendering_StaticConstructors.o
+[632/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.UnityInstance.o
+[633/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.UnityInstance_StaticConstructors.o
+[634/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Web_StaticConstructors.o
+[635/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Web.o
+[636/652    6s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Rendering1.o
+[637/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Transforms_StaticConstructors.o
+[638/652    7s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Tiny.Rendering2.o
+[639/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.ZeroJobs.o
+[640/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.ZeroJobs_StaticConstructors.o
+[641/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/UnsafeUtility.o
+[642/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/driver.o
+[643/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/mscorlib_StaticConstructors.o
+[644/652    1s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/netstandard.o
+[645/652    3s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/mscorlib.o
+[646/652    5s] C_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/5gti/Unity.Transforms.o
+[BUSY       6s] Link_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/TinySpaceship.html (+wasm,js)
+[BUSY      16s] Link_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/TinySpaceship.html (+wasm,js)
+[BUSY      26s] Link_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/TinySpaceship.html (+wasm,js)
+[BUSY      36s] Link_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/TinySpaceship.html (+wasm,js)
+[BUSY      46s] Link_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/TinySpaceship.html (+wasm,js)
+[BUSY      56s] Link_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/TinySpaceship.html (+wasm,js)
+[BUSY      66s] Link_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/TinySpaceship.html (+wasm,js)
+[BUSY      76s] Link_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/TinySpaceship.html (+wasm,js)
+[BUSY      86s] Link_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/TinySpaceship.html (+wasm,js)
+[BUSY      96s] Link_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/TinySpaceship.html (+wasm,js)
+[BUSY     107s] Link_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/TinySpaceship.html (+wasm,js)
+[BUSY     117s] Link_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/TinySpaceship.html (+wasm,js)
+[BUSY     127s] Link_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/TinySpaceship.html (+wasm,js)
+[BUSY     138s] Link_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/TinySpaceship.html (+wasm,js)
+[BUSY     148s] Link_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/TinySpaceship.html (+wasm,js)
+[BUSY     158s] Link_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/TinySpaceship.html (+wasm,js)
+[647/652   161s] Link_WebGL_wasm artifacts/TinySpaceship/tinyspaceship-web-wasm/TinySpaceship.html (+wasm,js)
+emcc:WARNING: --llvm-lto ignored when using llvm backend
+cache:INFO: generating system library: libfetch.a... (this will be cached in "/Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm-lto/libfetch.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libgl-webgl2.a... (this will be cached in "/Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm-lto/libgl-webgl2.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libc.a... (this will be cached in "/Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm-lto/libc.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libcompiler_rt.a... (this will be cached in "/Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm-lto/libcompiler_rt.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libc-wasm.a... (this will be cached in "/Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm-lto/libc-wasm.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libc++-noexcept.a... (this will be cached in "/Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm-lto/libc++-noexcept.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libc++abi-noexcept.a... (this will be cached in "/Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm-lto/libc++abi-noexcept.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libemmalloc-noerrno-64bit.a... (this will be cached in "/Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm-lto/libemmalloc-noerrno-64bit.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libpthread_stub.a... (this will be cached in "/Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm-lto/libpthread_stub.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libc_rt_wasm.a... (this will be cached in "/Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm-lto/libc_rt_wasm.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libsockets.a... (this will be cached in "/Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm-lto/libsockets.a" for subsequent builds)
+cache:INFO:  - ok
+wasm-ld: warning: function signature mismatch: _ZNSt3__215basic_streambufIcNS_11char_traitsIcEEE7seekposENS_4fposI11__mbstate_tEEj
+>>> defined as () -> void in /Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm-lto/libc++-noexcept.a(ios.o)
+>>> defined as (i32, i32, i32, i32) -> void in lto.tmp
+wasm-ld: warning: function signature mismatch: _ZNSt3__215basic_streambufIcNS_11char_traitsIcEEE7seekoffExNS_8ios_base7seekdirEj
+>>> defined as () -> void in /Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm-lto/libc++-noexcept.a(ios.o)
+>>> defined as (i32, i32, i64, i32, i32) -> void in lto.tmp
+cache:INFO: generating system asset: generated_struct_info.json... (this will be cached in "/Users/JPVenegas/UnityTinySamples/ProjectTinySamples/TinySpaceship/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm-lto/generated_struct_info.json" for subsequent builds)
+cache:INFO:  - ok
+[648/652    0s] CopyTool ../../Builds/tinyspaceship-web-wasm/TinySpaceship.wasm
+[649/652    0s] CopyTool ../../Builds/tinyspaceship-web-wasm/TinySpaceship.js
+[650/652    0s] CopyTool ../../Builds/tinyspaceship-web-wasm/TinySpaceship.html
+*** Bee build success (261.14 seconds - 0:04:21), 125 items updated, 652 evaluated
